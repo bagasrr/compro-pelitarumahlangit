@@ -1,0 +1,9 @@
+.misi {
+  margin-top: 50px;
+}
+
+.cardMisi-container {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+}

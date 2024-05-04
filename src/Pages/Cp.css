@@ -1,0 +1,27 @@
+.contactPages-container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.maps {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  border-radius: 20px;
+}
+.mapsTitle {
+  width: fit-content;
+  font-family: var(--font-judul);
+}
+.mapsIframe {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+}
+.desc {
+  text-align: left;
+  height: fit-content;
+}

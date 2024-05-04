@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  z-index: 1;
+  transition: 0.5s;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+  padding: 10px 0;
+}
+.logo img {
+  height: 60px;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.logo img:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  scale: 1.03;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.nav-menu li {
+  list-style-type: none;
+  margin: 15px;
+  font-size: 18px;
+  font-family: var(--font-desc);
+  font-weight: 300;
+}
+.nav-menu {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
