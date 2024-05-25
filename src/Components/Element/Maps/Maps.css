@@ -1,9 +1,3 @@
-.contactPages-container {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-
 .maps {
   width: 50%;
   display: flex;
@@ -20,8 +14,4 @@
   height: 400px;
   width: 400px;
   padding: 20px;
-}
-.desc {
-  text-align: left;
-  height: fit-content;
 }

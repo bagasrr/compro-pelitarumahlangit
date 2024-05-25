@@ -20,12 +20,24 @@
   font-family: var(--card-title-font);
   font-weight: var(card-font-weight);
   font-size: 25px;
-  /* text-align: center; */
-  /* flex-direction: column; */
   margin-bottom: 10px;
 }
 .cardMisiDesc {
   font-size: 15px;
   font-family: var(--font-desc);
   text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .cardMisiList {
+    width: 40%;
+    height: fit-content;
+  }
+
+  .cardMisiTitle {
+    font-size: 20px;
+  }
+  .cardMisiDesc {
+    font-size: 12px;
+  }
 }

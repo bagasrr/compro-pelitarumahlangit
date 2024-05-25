@@ -33,5 +33,31 @@
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  margin-bottom: 50px;
+}
+.company-businessType {
+  margin: 20px 0 40px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .header-container {
+    height: 100vh;
+    align-items: start;
+  }
+  .header-container::after {
+    height: 100vh;
+  }
+  .company-title {
+    font-size: 50px;
+    margin-bottom: -20px;
+    padding: 20px;
+  }
+  .company-tagline {
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: -10px;
+  }
+  .description {
+    text-align: left;
+    padding: 20px;
+  }
 }

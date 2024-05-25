@@ -6,3 +6,8 @@
   font-size: 20px;
   font-family: "Arapey", serif;
 }
+@media screen and (max-width: 480px) {
+  .about-desc {
+    font-size: 15px;
+  }
+}

@@ -1,6 +1,6 @@
 import "./CardP.css";
 const CardP = (props) => {
-  const { cardImg } = props;
-  return <img src={cardImg} alt="Our Partner" className="cardPImg" />;
+  const { cardImg, altText } = props;
+  return <img src={cardImg} alt={altText} title={altText} className="cardPImg" />;
 };
 export default CardP;

@@ -1,5 +1,10 @@
 .partnerCard {
   padding: 100px 0;
   display: flex;
-  overflow-x: scroll;
+  justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .partnerCard {
+    flex-wrap: wrap;
+  }
 }
