@@ -1,6 +1,5 @@
 .contactPages-container {
   display: flex;
-  flex-direction: column;
   padding: 20px;
   align-items: center;
 }
@@ -8,4 +7,9 @@
 .desc {
   text-align: left;
   height: fit-content;
+}
+@media screen and (max-width: 480px) {
+  .contactPages-container {
+    flex-direction: column;
+  }
 }

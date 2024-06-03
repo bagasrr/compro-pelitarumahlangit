@@ -1,0 +1,21 @@
+.project-container {
+  display: flex;
+  padding: 2% 10%;
+  width: 80%;
+  margin: 2%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(148, 148, 148, 0.8);
+}
+.project-container img {
+  width: 40vh;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.project-title {
+  font-family: var(--card-title-font);
+  font-size: 30px;
+}
+.project-desc {
+  margin-top: 20px;
+  width: 80%;
+}
