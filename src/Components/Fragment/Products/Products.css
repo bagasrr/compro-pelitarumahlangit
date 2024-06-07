@@ -1,7 +1,9 @@
 .products-container {
   background: #5bbcff;
-  /* height: 100vh; */
   width: 100%;
+}
+.wave {
+  margin-bottom: -50px;
 }
 
 .card-container {

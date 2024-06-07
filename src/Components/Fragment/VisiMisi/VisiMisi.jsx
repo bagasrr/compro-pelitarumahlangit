@@ -1,6 +1,30 @@
 import "./VisiMisi.css";
 import CardMisi from "../../Element/CardMisi/CardMisi";
 import Title from "../../Element/Title/Title";
+
+const misi = [
+  {
+    id: 1,
+    title: "Mengembangkan Pelayanan Berkualitas",
+    desc: "Memberikan pelayanan yang berkualitas tinggi kepada pelanggan, khususnya dalam industri Pallet Kayu dan plastik.",
+  },
+  {
+    id: 2,
+    title: "Melakukan Pengembangan Produk",
+    desc: "Mengembangkan berbagai jenis dan bentuk produk Pallet yang memenuhi standar lokal dan ekspor dengan kapasitas produksi yang sesuai.",
+  },
+  {
+    id: 3,
+    title: "Mengembangkan Pengawasan Kualitas",
+    desc: "Melakukan pengawasan ketat pada proses pembuatan dan perawatan Pallet, termasuk perlakuan kayu dan stufing.",
+  },
+  {
+    id: 4,
+    title: "Mengembangkan Kepuasan Pelanggan",
+    desc: "Memastikan kepuasan pelanggan melalui layanan after-sales seperti repairing Pallet yang efisien.",
+  },
+];
+
 const VisiMisi = () => {
   return (
     <div className="visi-misi section-part">
@@ -11,10 +35,9 @@ const VisiMisi = () => {
       <div className="misi ">
         <Title titleName="MISI" />
         <ul className="cardMisi-container">
-          <CardMisi cardTitle="Mengembangkan Pelayanan Berkualitas" cardDesc="Memberikan pelayanan yang berkualitas tinggi kepada pelanggan, khususnya dalam industri Pallet Kayu dan plastik." />
-          <CardMisi cardTitle="Melakukan Pengembangan Produk" cardDesc="Mengembangkan berbagai jenis dan bentuk produk Pallet yang memenuhi standar lokal dan ekspor dengan kapasitas produksi yang sesuai." />
-          <CardMisi cardTitle="Mengembangkan Pengawasan Kualitas" cardDesc="Melakukan pengawasan ketat pada proses pembuatan dan perawatan Pallet, termasuk perlakuan kayu dan stufing." />
-          <CardMisi cardTitle="Mengembangkan Kepuasan Pelanggan" cardDesc="Memastikan kepuasan pelanggan melalui layanan after-sales seperti repairing Pallet yang efisien." />
+          {misi.map((misi) => (
+            <CardMisi cardTitle={misi.title} cardDesc={misi.desc} />
+          ))}
         </ul>
       </div>
     </div>

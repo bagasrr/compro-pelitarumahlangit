@@ -10,6 +10,8 @@
   width: 40vh;
   border-radius: 10px;
   margin-right: 50px;
+  object-fit: cover;
+  object-position: center;
 }
 .project-title {
   font-family: var(--card-title-font);
@@ -18,4 +20,25 @@
 .project-desc {
   margin-top: 20px;
   width: 80%;
+}
+@media screen and (max-width: 480px) {
+  .project-container {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .project-container img {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  .project-title {
+    font-size: 23px;
+    margin: 20px;
+  }
+  .project-desc {
+    padding: 20px 0;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+  }
 }
