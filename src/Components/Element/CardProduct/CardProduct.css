@@ -1,6 +1,6 @@
 .card {
   width: 40vh;
-  height: auto;
+  /* height: 70vh; */
   overflow: hidden;
   display: flex;
   flex-direction: column;

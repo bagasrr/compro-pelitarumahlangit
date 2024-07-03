@@ -13,7 +13,7 @@ const ContactPages = () => {
       <Contact />
       <Footer />
 
-      <WaButton nomorWa="81510180898" textWa="Halo, saya telah melihat produk anda pada website, saya tertarik untuk melakukan pemesanan." />
+      <WaButton nomorWa="81510180898" textWa="halo, saya telah  melihat produk anda pada website, saya tertarik untuk melakukan pemesanan." />
     </Fragment>
   );
 };

@@ -1,0 +1,12 @@
+/* src/ImageSlider.css */
+.image-slider {
+  width: 40vh;
+}
+.image-slider .slick-dots {
+  bottom: -30px;
+}
+.image-slider img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
