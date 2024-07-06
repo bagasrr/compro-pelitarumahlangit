@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../Components/Fragment/Navbar/Navbar";
 import Header from "../Components/Fragment/Header/Header";
 import AboutUs from "../Components/Fragment/About Us/AboutUs";
@@ -9,13 +9,16 @@ import Footer from "../Components/Element/Footer/Footer";
 import Project from "../Components/Fragment/Project/Project";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <Fragment>
       <Navbar />
       <Header />
       <AboutUs />
       <Products />
-      <Project />
+      {/* <Project /> */}
       <OurPartner />
       <Footer />
 

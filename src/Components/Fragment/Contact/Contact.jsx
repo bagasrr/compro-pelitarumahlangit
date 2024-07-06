@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="desc">
         <CategoryText varTitle="Email :" varDesc="pelita.rumahlangit@gmail.com" />
-        <CategoryText varTitle="Alamat :" varDesc="Jln KH Umar Rawa Ilat No. 16 Desa Mampir Kecamata Cileungsi – Kabupaten Bogor Jawa barat" className="mapsDesc" />
+        <CategoryText varTitle="Alamat :" varDesc="Jln KH Umar Rawa Ilat No. 16 Desa Mampir Kecamatan Cileungsi – Kabupaten Bogor Jawa barat" className="mapsDesc" />
         <CategoryText varTitle="Telepon :" varDesc="+62 815-1018-0898" className="mapsDesc" />
       </div>
     </div>

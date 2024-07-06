@@ -24,6 +24,9 @@ const Navbar = () => {
         <li>
           <Link to="/contact">Contact Us</Link>
         </li>
+        <li>
+          <Link to="/project">Our Project</Link>
+        </li>
       </div>
       <div onClick={navMenu} className={toggle}>
         <div className="toggle toggle1"></div>

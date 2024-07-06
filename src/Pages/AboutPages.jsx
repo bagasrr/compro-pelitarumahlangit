@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Navbar from "../Components/Fragment/Navbar/Navbar";
 import AboutUs from "../Components/Fragment/About Us/AboutUs";
 import VisiMisi from "../Components/Fragment/VisiMisi/VisiMisi";
@@ -7,6 +7,10 @@ import Footer from "../Components/Element/Footer/Footer";
 import WaButton from "../Components/Element/WaButton/WaButton";
 
 const AboutPages = () => {
+  useEffect(() => {
+    // Scroll ke bagian atas saat halaman dimuat
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <Fragment>
       <Navbar />

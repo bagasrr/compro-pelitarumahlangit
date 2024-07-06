@@ -1,10 +1,11 @@
 .project-container {
   display: flex;
-  padding: 2% 10%;
-  width: 80%;
+  width: 60%;
   margin: 2%;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(148, 148, 148, 0.8);
+  background: #93abd3;
+  align-items: center;
+  color: rgb(52, 48, 48);
 }
 .project-container img {
   width: 40vh;

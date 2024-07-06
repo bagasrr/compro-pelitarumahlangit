@@ -8,7 +8,7 @@ import ErrorPage from "./Pages/ErrorPage.jsx";
 import Home from "./Pages/Home.jsx";
 import AboutPages from "./Pages/AboutPages.jsx";
 import ContactPages from "./Pages/ContactPages.jsx";
-import SliderApp from "./Pages/AppSlider.jsx";
+import Project from "./Pages/Project.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
     element: <ContactPages />,
   },
   {
-    path: "/imgslider",
-    element: <SliderApp />,
+    path: "/project",
+    element: <Project />,
   },
 ]);
 
