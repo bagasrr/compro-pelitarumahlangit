@@ -1,11 +1,12 @@
 // src/App.js
 import React, { Fragment, useEffect } from "react";
-import images from "../Components/Fragment/Slider/imgsrc";
-("../Components/Fragment/Slider/imgsrc.jsx");
 
 import ImageSlider from "../Components/Fragment/Slider/ImageSlider";
 import Navbar from "../Components/Fragment/Navbar/Navbar";
 import Footer from "../Components/Element/Footer/Footer";
+import StuffingKorea from "../Components/Element/LoadImage/StuffingKorea";
+import ImPratama from "../Components/Element/LoadImage/ImpackPratama";
+import WaButton from "../Components/Element/WaButton/WaButton";
 
 const Project = () => {
   useEffect(() => {
@@ -14,8 +15,10 @@ const Project = () => {
   return (
     <Fragment>
       <Navbar />
-      <ImageSlider images={images} projectTitle="Pengawasan Stuffing Ekspor ke Korea" />
+      <ImageSlider images={StuffingKorea} projectTitle="Pengawasan Stuffing Ekspor ke Korea" />
+      <ImageSlider images={ImPratama} projectTitle="Projek Impack Pratama" />
       <Footer />
+      <WaButton nomorWa="81510180898" textWa="Halo, saya telah melihat Projek anda pada website, saya tertarik untuk melakukan pemesanan." />
     </Fragment>
   );
 };

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./Button.css";
 const Button = (props) => {
-  const { buttonName, buttonLink } = props;
+  const { buttonName, buttonLink, bgButton } = props;
   return (
-    <div className="button">
+    <div className="button" style={bgButton}>
       <Link to={buttonLink}>{buttonName}</Link>
     </div>
   );

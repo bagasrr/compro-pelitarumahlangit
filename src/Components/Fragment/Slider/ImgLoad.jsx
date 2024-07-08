@@ -15,6 +15,9 @@ import PEKorea14 from "/image/Projectimg/ProjectEksporKorea/ProjectExporKorea14.
 import PEKorea15 from "/image/Projectimg/ProjectEksporKorea/ProjectExporKorea15.jpeg";
 import PEKorea16 from "/image/Projectimg/ProjectEksporKorea/ProjectExporKorea16.jpeg";
 import PEKorea17 from "/image/Projectimg/ProjectEksporKorea/ProjectExporKorea17.jpeg";
-const images = [PEKorea1, PEKorea2, PEKorea3, PEKorea4, PEKorea5, PEKorea6, PEKorea7, PEKorea8, PEKorea9, PEKorea11, PEKorea13, PEKorea14, PEKorea15, PEKorea16, PEKorea17, PEKorea12, PEKorea10];
 
-export default images;
+const ImgLoad = () => {
+  const StuffingKorea = [PEKorea1, PEKorea2, PEKorea3, PEKorea4, PEKorea5, PEKorea6, PEKorea7, PEKorea8, PEKorea9, PEKorea11, PEKorea13, PEKorea14, PEKorea15, PEKorea16, PEKorea17, PEKorea12, PEKorea10];
+  return StuffingKorea;
+};
+export default ImgLoad;

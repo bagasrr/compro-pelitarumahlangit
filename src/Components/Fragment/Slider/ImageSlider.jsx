@@ -18,6 +18,11 @@ const ImageSlider = (props) => {
     cssEase: "linear",
   };
 
+  if (window.innerWidth <= 540) {
+    settings.slidesToShow = 1;
+  } else {
+    settings.slidesToShow = 2;
+  }
   return (
     <div className="slider-container">
       <div className="image-slider">
