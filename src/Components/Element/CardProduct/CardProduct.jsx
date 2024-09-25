@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import "./CardProduct.css";
 const CardProduct = (props) => {
   const { cardImg, cardTitle, cardDesc } = props;

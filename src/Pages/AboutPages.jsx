@@ -8,7 +8,6 @@ import WaButton from "../Components/Element/WaButton/WaButton";
 
 const AboutPages = () => {
   useEffect(() => {
-    // Scroll ke bagian atas saat halaman dimuat
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
